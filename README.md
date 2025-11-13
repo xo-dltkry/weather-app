@@ -29,16 +29,20 @@ The app allows users to search for any city and view current weather conditions 
 ## Installation and Setup
 
 1. **Clone the repository**
+   ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
-2. **Install dependencies**
+3. **Install dependencies**
    Copy code
+   ```bash
    npm install
-3. **Create .env file**
+5. **Create .env file**
    Copy code
+   ```bash
    VITE_API_KEY=your_openweathermap_api_key
-   
+   ```
    You can get your API key from https://home.openweathermap.org/api_keys
 
-4. **Start the development server**
+7. **Start the development server**
+   ```bash
    npm run dev
